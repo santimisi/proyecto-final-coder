@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.25;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+nav {
+  background-color: white;
+  position: sticky;
+  height: 80px;
+  width: 100%; }
+  nav label.logo {
+    color: black;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold; }
+  nav #check {
+    display: none; }
+  nav .checkbtn {
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none; }
+  nav ul {
+    float: right;
+    margin-right: 20px; }
+    nav ul .active, nav ul .navbutton:hover {
+      background: #1b9bff;
+      transition: .5s; }
+    nav ul a {
+      color: black;
+      text-transform: uppercase;
+      font-size: 17px;
+      border-radius: 3px;
+      padding: 7px 13px; }
+      nav ul a li {
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 5px;
+        padding: 10px; }
+
+body {
+  height: 100%;
+  width: 100%; }
+
+.headerofertas {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: #666666;
+  justify-content: center;
+  align-items: center;
+  align-content: center; }
+  .headerofertas .headerofertas__ofertas {
+    width: 20%;
+    height: auto; }
+    .headerofertas .headerofertas__ofertas .headerofertas__ofertas--titulo {
+      color: white;
+      border: 5px black;
+      text-align: center;
+      font-size: 70px; }
+
+.ofertas {
+  width: 100%;
+  max-width: 1200px;
+  height: 430px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto; }
+  .ofertas .ofertas__contenido {
+    width: 200px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px black;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s; }
+    .ofertas .ofertas__contenido img {
+      width: 330px;
+      height: 220px; }
+    .ofertas .ofertas__contenido p {
+      padding: 0 1rem;
+      font-size: 16px;
+      font-weight: 300; }
+    .ofertas .ofertas__contenido .ofertas__contenido--1 {
+      font-size: 25px;
+      color: red; }
+    .ofertas .ofertas__contenido .ofertas__contenido--2 {
+      font-size: 25px;
+      color: green; }
+    .ofertas .ofertas__contenido .ofertas__contenido--3 {
+      font-size: 25px;
+      color: blue; }
+    .ofertas .ofertas__contenido .ofertas__contenido--4 {
+      font-size: 25px;
+      color: coral; }
+    .ofertas .ofertas__contenido .ofertas__contenido--5 {
+      font-size: 25px;
+      color: cyan; }
+
+h1 {
+  color: red; }
+
+h2 {
+  color: red; }
+
+h3 {
+  color: red; }
+
+h4 {
+  color: red; }
+
+h5 {
+  color: red; }
+
+h6 {
+  color: red; }
