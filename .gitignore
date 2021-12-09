@@ -1,6 +1,6 @@
 node_modules
 *.bmpr
-*.rar
+*.zip
 .sass-cache
 *.txt
 tarea sass 30-11
