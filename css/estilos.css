@@ -164,72 +164,8 @@ ul a:hover ul {
 
 }
 /*nosotros.html*/
-.nosotros {
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-areas:
-    "imagennosotros imagennosotros imagennosotros"
-    "parrafo1 parrafo2 parrafo3"
-    "parrafo4 parrafo4 parrafo4";
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
 
 
-}
-.parrafo1 {
-    grid-area: parrafo1;
-    margin: 20px;
-}
-.parrafo2 {
-    grid-area: parrafo2;
-    margin: 20px;
-}
-.parrafo3 {
-    grid-area: parrafo3;
-    margin: 20px;
-}
-.parrafo4 {
-    grid-area: parrafo4;
-    margin: 50px;
-}
-.imagennosotros {
-    grid-area: imagennosotros;
-}
-
-/*contacto.html*/
-#contacto {
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-areas: 
-    "lista-de-prueba titulo-formulario none"
-    "lista-de-prueba formulario none"
-    "texto-formulario texto-formulario texto-formulario";
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 200px auto 100px;
-}
-#contacto .titulo-formulario {
-    grid-area: titulo-formulario;
-    text-align: center;
-    background-color: whitesmoke;
-}
-#contacto .formulario {
-    grid-area: formulario;
-    border-radius: 5px; 
-    text-align:center;
-    background-color: whitesmoke;
-}
-#contacto .texto-formulario {
-    grid-area: texto-formulario;
-    border: 3px solid black;
-}
-#contacto .lista-de-prueba ul {
-    display: flex;
-    flex-direction:column;
-    grid-area: lista-de-prueba;
-    background-color: chocolate;
-}
 /*MEDIA QUERIES NAV
     SMARTPHONE
 */
@@ -260,10 +196,10 @@ ul a:hover ul {
         display: block;
     }
     nav ul {
-        position:relative;
+        position:fixed;
         width: 30%;
         height: 35vh;
-        top: 10px;
+        top: 70px;
         right: -100%;
         text-align: center;
         background: #2c3e50;
