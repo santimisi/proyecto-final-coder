@@ -3216,7 +3216,7 @@ textarea.form-control-lg {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #0d6efd;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem; }
@@ -3250,7 +3250,8 @@ textarea.form-control-lg {
   margin-bottom: 0; }
 
 .card-text:last-child {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  color: white; }
 
 .card-link:hover {
   text-decoration: none; }
@@ -3278,6 +3279,9 @@ textarea.form-control-lg {
   margin-bottom: -0.5rem;
   margin-left: -0.5rem;
   border-bottom: 0; }
+  .card-header-tabs .nav-link.active {
+    background-color: #0d6efd;
+    border-bottom-color: #0d6efd; }
 
 .card-header-pills {
   margin-right: -0.5rem;
@@ -7512,7 +7516,7 @@ textarea.form-control-lg {
   color: whitesmoke;
   justify-content: center;
   align-items: center;
-  line-height: 200px; }
+  line-height: 250px; }
 
 .imagenUnoNosotros {
   margin: 20px; }

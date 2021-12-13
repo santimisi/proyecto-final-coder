@@ -186,7 +186,8 @@ ul a:hover ul {
 }
 @media(max-width:1366px){
     nav{
-        position: sticky;
+        position: fixed;
+        z-index: 9999;
     }
     label.logo {
         font-size: 15px;
@@ -205,6 +206,7 @@ ul a:hover ul {
         background: #2c3e50;
         border-radius: 8px;
         transition: all .5s;
+        z-index: 9999;
     }
     nav ul a li{
         display: block;
