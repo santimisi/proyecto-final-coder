@@ -3216,7 +3216,7 @@ textarea.form-control-lg {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #0d6efd;
+  background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem; }
@@ -3279,9 +3279,6 @@ textarea.form-control-lg {
   margin-bottom: -0.5rem;
   margin-left: -0.5rem;
   border-bottom: 0; }
-  .card-header-tabs .nav-link.active {
-    background-color: #0d6efd;
-    border-bottom-color: #0d6efd; }
 
 .card-header-pills {
   margin-right: -0.5rem;
@@ -7520,6 +7517,103 @@ textarea.form-control-lg {
 
 .imagenUnoNosotros {
   margin: 20px; }
+
+.cardnosotros {
+  background: blue; }
+
+nav {
+  background-color: white;
+  position: sticky;
+  height: 80px;
+  width: 100%; }
+  nav label.logo {
+    color: black;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold; }
+  nav #check {
+    display: none; }
+  nav ul {
+    float: right;
+    margin-right: 20px; }
+    nav ul a {
+      color: black;
+      text-transform: uppercase;
+      font-size: 17px;
+      border-radius: 3px;
+      padding: 7px 13px; }
+    nav ul li {
+      display: inline-block;
+      line-height: 80px;
+      margin: 0 5px; }
+
+.checkbtn {
+  font-size: 30px;
+  color: black;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none; }
+
+a .active, .navbutton:hover {
+  background: #1b9bff;
+  transition: .5s; }
+
+@media (max-width: 1366px) {
+  nav {
+    position: fixed;
+    z-index: 9999; }
+    nav label.logo {
+      font-size: 10px;
+      padding-left: 50px; }
+  .checkbtn {
+    display: block; }
+  nav ul {
+    position: fixed;
+    width: auto;
+    height: auto;
+    top: 70px;
+    right: -100%;
+    text-align: center;
+    background: #2c3e50;
+    border-radius: 8px;
+    transition: all .5s;
+    z-index: 9999; }
+  nav ul a li {
+    display: block;
+    margin: 2px 0;
+    line-height: 7px;
+    font-weight: bold;
+    color: #b1b7be; }
+  nav ul a {
+    font-size: 20px;
+    text-decoration: none; }
+  .navbutton:hover, a .active {
+    background: none;
+    color: #0082e6; }
+  #check:checked ~ ul {
+    right: 0; }
+  .containerProductos {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center; }
+  .listaMenu {
+    text-align: center; } }
+
+@media (max-width: 952px) {
+  label.logo {
+    font-size: 15px;
+    padding-left: 50px; }
+  nav ul a {
+    font-size: 12px;
+    text-align: left; }
+  .redesSociales {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+    align-items: flex-end; } }
 
 * {
   margin: 0;

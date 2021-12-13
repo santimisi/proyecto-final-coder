@@ -1,0 +1,68 @@
+@media(max-width:1366px){
+    nav{
+        position: fixed;
+        z-index: 9999;
+        label.logo {
+        font-size: 10px;
+        padding-left: 50px;
+        }
+    }
+    .checkbtn{
+        display: block;
+    }
+    nav ul {
+        position:fixed;
+        width: auto;
+        height: auto;
+        top: 70px;
+        right: -100%;
+        text-align: center;
+        background: #2c3e50;
+        border-radius: 8px;
+        transition: all .5s;
+        z-index: 9999;
+    }
+    nav ul a li{
+        display: block;
+        margin: 2px 0;
+        line-height: 7px;
+        font-weight: bold;
+        color: rgb(177, 183, 190);
+    }
+    nav ul a {
+        font-size: 20px;
+        text-decoration: none;
+    }
+    .navbutton:hover, a .active {
+        background: none;
+        color:#0082e6;
+    }
+    #check:checked~ul{
+        right: 0;
+    }
+    .containerProductos {
+        display:flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .listaMenu {
+        text-align: center;
+    }
+}
+
+@media(max-width:952px){
+    label.logo {
+        font-size: 15px;
+        padding-left: 50px;
+    }
+    nav ul a {
+        font-size: 12px;
+        text-align: left;
+    }
+    .redesSociales {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: end;
+        align-items: flex-end;
+    }
+}
