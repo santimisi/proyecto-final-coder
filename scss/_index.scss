@@ -1,0 +1,32 @@
+@mixin img_container {
+    position:relative;
+    display:inline-block;
+    text-align:center;
+}  
+
+@mixin button_container {
+    position:absolute;
+    bottom:2%;
+    left: 45%;
+    width:100px;
+    height:40px;
+}
+#img_container {
+    @include img_container;
+}
+#img_container2 {
+    @include img_container
+}
+#img_container3 {
+    @include img_container
+}
+
+#button_container {
+    @include button_container
+}
+#button_container2 {
+    @include button_container
+}
+#button_container3 {
+    @include button_container
+}

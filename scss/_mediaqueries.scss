@@ -49,7 +49,9 @@
         text-align: center;
     }
 }
-
+    section {
+        padding-top: 80px;
+}
 @media(max-width:952px){
     label.logo {
         font-size: 15px;
